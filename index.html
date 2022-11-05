@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!--Google Font-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+         rel="stylesheet">
+   <!--icon-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet"
+         href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+   <link rel="stylesheet" href="css/flaticon.css">
+   <!--light Gallery-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+         integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lg-zoom.min.css"
+         integrity="sha512-SGo05yQXwPFKXE+GtWCn7J4OZQBaQIakZSxQSqUyVWqO0TAv3gaF/Vox1FmG4IyXJWDwu/lXzXqPOnfX1va0+A=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lg-thumbnail.min.css"
+         integrity="sha512-GRxDpj/bx6/I4y6h2LE5rbGaqRcbTu4dYhaTewlS8Nh9hm/akYprvOTZD7GR+FRCALiKfe8u1gjvWEEGEtoR6g=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery-bundle.min.css"
+         integrity="sha512-fqfjVCJd1qT62UGUU3+8ByzjvSv6O9vM1muZ/cH5KrX6OqaUe2OTYjmT3R8pp6qYmh4Nv2l5I8WohRwDNzdriw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--   swiper-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css"
+         integrity="sha512-rVfXYRlhHtd3C4PzoBxSaKhI/uYEi0/5K69RwK/cdxQld57PC6mZ7tkutR+KD96WrXZ6E/96qYeY4CVun7a0/w=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="css/swiper.min.css">
+   <!--   Owl Carousel -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+         integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
+         integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--   css  -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <title>Sama</title>
+</head>
+<body>
+   <!--   Header  -->
+   <header id="header" class="header">
+      <div class="header__logo">
+         <a href="" id="a__logo">
+            <img src="img/logo-2.png" alt="">
+         </a>
+      </div>
+      <div class="header__content">
+         <nav>
+            <ul>
+               <li>
+                  <a href="" class="nav__a">
+                     <span>Home</span>
+                     <i class="fa fa-chevron-down"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="" class="nav__a">
+                     <span>Page</span>
+                     <i class="fa fa-chevron-down"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="" class="nav__a">
+                     <span>Services</span>
+                     <i class="fa fa-chevron-down"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="" class="nav__a">
+                     <span>Post Layout</span>
+                     <i class="fa fa-chevron-down"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="" class="nav__a">
+                     <span>Blog</span>
+                     <i class="fa fa-chevron-down"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="" class="nav__a">
+                     <span>Contact Us</span>
+                     <i class="fa fa-chevron-down"></i>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <div class="header__btn" id="header-btn">
+         <a href="" class="button">GET A QUOTE</a>
+      </div>
+   </header>
+   <!--   Banner  -->
+   <div class="banner">
+      <div class="container">
+         <div class="banner__left">
+            <p>We are The Best</p>
+            <h1>Freelance Product Designer Running</h1>
+            <p class="des">We develop the relationships that underpin the next phase in your <br> organisation's growth.
+            </p>
+            <ul>
+               <li>Master's degree in designing</li>
+               <li>Outstanding mobile design</li>
+            </ul>
+            <a href="" class="button">GET STARTED</a>
+         </div>
+         <div class="banner__right">
+            <img src="img/pic3_1.png" alt="pic3">
+            <div class="banner__right__animation">
+               <img src="img/pic1.png" alt="animation">
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--   Blog    -->
+   <div class="blog">
+      <div class="container">
+         <p>What We Do Best</p>
+         <h2>Our Digital Services</h2>
+         <div class="blog__content">
+            <div class="blog__item">
+               <img src="img/pic1_3.jpg" alt="">
+               <h3>Web Development</h3>
+               <p class="des">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
+                              magna quis.</p>
+            </div>
+            <div class="blog__item">
+               <img src="img/pic2_2.jpg" alt="">
+               <h3>Strategy & Research</h3>
+               <p class="des">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
+                              magna quis.</p>
+            </div>
+            <div class="blog__item">
+               <img src="img/pic3_2.jpg" alt="">
+               <h3>Growth Tracking</h3>
+               <p class="des">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
+                              magna quis.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--   Introduce     -->
+   <div class="introduce">
+      <div class="container">
+         <div class="intro__left">
+            <div class="intro__left__img">
+               <img src="img/pic1.jpg" alt=""></div>
+         </div>
+         <div class="intro__right">
+            <p>About Us</p>
+            <h2>Build Your Business Website Better</h2>
+            <p class="des">Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus
+                           blandit,
+                           dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla. Sed
+                           euismod turpis id
+                           nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
+            <ul>
+               <li>
+                  We support programs that create advancement opportunities for people.
+               </li>
+               <li>
+                  Get a view of events and trends. Be updated on our recent news.
+               </li>
+               <li>
+                  Finally, it all comes down to people. Creating a winning team.
+               </li>
+               <li>
+                  Get a view of events and trends. Be updated on our recent news.
+               </li>
+            </ul>
+            <a href="" class="button">Learn more</a>
+         </div>
+      </div>
+   </div>
+   <!--   Numbers    -->
+   <div class="number">
+      <div class="container">
+         <div class="number__item">
+            <div class="number__icon">
+               <i class="flaticon-smile"></i>
+            </div>
+            <div class="number__content">
+               <h2>
+                  <span class="counter">18</span>
+                  Ml
+               </h2>
+               <span class="des">Satisfied Clients</span>
+            </div>
+         </div>
+         <div class="number__item">
+            <div class="number__icon">
+               <i class="flaticon-line-chart"></i>
+            </div>
+            <div class="number__content">
+               <h2>
+                  <span class="counter">20</span>
+                  Ml
+               </h2>
+               <span class="des">Project Completed</span>
+            </div>
+         </div>
+         <div class="number__item">
+            <div class="number__icon">
+               <i class="flaticon-startup"></i>
+            </div>
+            <div class="number__content">
+               <h2>
+                  <span class="counter">30</span>
+                  Ml
+               </h2>
+               <span class="des">Project Lunched</span>
+            </div>
+         </div>
+         <div class="number__item">
+            <div class="number__icon">
+               <i class="flaticon-confetti"></i>
+            </div>
+            <div class="number__content">
+               <h2>
+                  <span class="counter">50</span>
+               </h2>
+               <span class="des">Years Completed</span>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--   Services   -->
+   <div class="service">
+      <div class="container">
+         <div class="service__left">
+            <p>Our Features</p>
+            <h2>Behind The Story Of Samar Agency</h2>
+            <div class="service__content">
+               <div class="service__item">
+                  <div class="service__icon">
+                     <a href="">
+                        <i class="flaticon-idea"></i>
+                     </a>
+                  </div>
+                  <div class="service__text">
+                     <h3>Idea & Analysis Gathering</h3>
+                     <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+                  </div>
+               </div>
+               <div class="service__item item__right">
+                  <div class="service__icon">
+                     <a href=""><i class="flaticon-coding"></i></a>
+                  </div>
+                  <div class="service__text">
+                     <h3>Design & Developing</h3>
+                     <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+                  </div>
+               </div>
+               <div class="service__item">
+                  <div class="service__icon">
+                     <a href=""><i class="flaticon-rocket"></i></a>
+
+                  </div>
+                  <div class="service__text">
+                     <h3>Testing & Lunching</h3>
+                     <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="service__right">
+            <img src="img/pic3.png" alt="">
+         </div>
+      </div>
+   </div>
+   <!--   Project    -->
+   <div class="project">
+      <div class="container">
+         <div class="project__title">
+            <p>Portfolio</p>
+            <h2>Our Latest Work</h2>
+         </div>
+         <div class="project__content" id="animated-thumbnails">
+            <div class="project__item item-1">
+               <img src="img/pic1_2.jpg" alt="">
+               <div class="icon">
+                  <a data-exthumbimage="../img/pic1_2.jpg" data-lg-size="2500-2500" class="lightimg"
+                     data-src="../img/pic1_2.jpg" data-sub-html="Design">
+                     <i class="la la-plus"></i>
+                  </a>
+               </div>
+               <div class="text">
+                  <a href="">
+                     <h4>Software Landing</h4>
+                  </a>
+                  <br>
+                  <a href="">
+                     <p>By Jhon Doe</p>
+                  </a>
+               </div>
+            </div>
+            <div class="project__item item-2">
+               <img src="img/pic2_1.jpg" alt="">
+               <div class="icon">
+                  <a data-exthumbimage="../img/pic2_1.jpg" data-lg-size="2500-2500" class="lightimg"
+                     data-src="../img/pic2_1.jpg" data-sub-html="Design">
+                     <i class="la la-plus"></i>
+                  </a>
+               </div>
+               <div class="text">
+                  <a href="">
+                     <h4>Software Landing</h4>
+                  </a>
+                  <br>
+                  <a href="">
+                     <p>By Jhon Doe</p>
+                  </a>
+               </div>
+            </div>
+            <div class="project__item item-3">
+               <img src="img/pic3_1.jpg" alt="">
+               <div class="icon">
+                  <a data-exthumbimage="../img/pic3_1.jpg" data-lg-size="2500-2500" class="lightimg"
+                     data-src="../img/pic3_1.jpg" data-sub-html="Design">
+                     <i class="la la-plus"></i>
+                  </a>
+               </div>
+               <div class="text">
+                  <a href="">
+                     <h4>Software Landing</h4>
+                  </a>
+                  <br>
+                  <a href="">
+                     <p>By Jhon Doe</p>
+                  </a>
+               </div>
+            </div>
+            <div class="project__item item-4">
+               <img src="img/pic4.jpg" alt="">
+               <div class="icon">
+                  <a data-exthumbimage="../img/pic4.jpg" data-lg-size="2500-2500" class="lightimg"
+                     data-src="../img/pic4.jpg" data-sub-html="Design">
+                     <i class="la la-plus"></i>
+                  </a>
+               </div>
+               <div class="text">
+                  <a href="">
+                     <h4>Software Landing</h4>
+                  </a>
+                  <br>
+                  <a href="">
+                     <p>By Jhon Doe</p>
+                  </a>
+               </div>
+            </div>
+            <div class="project__item item-5">
+
+               <img src="img/pic5.jpg" alt="">
+               <div class="icon">
+                  <a data-exthumbimage="../img/pic5.jpg" data-lg-size="2500-2500" class="lightimg"
+                     data-src="../img/pic5.jpg" data-sub-html="Design">
+                     <i class="la la-plus"></i>
+                  </a>
+               </div>
+               <div class="text">
+                  <a href="">
+                     <h4>Software Landing</h4>
+                  </a>
+                  <br>
+                  <a href="">
+                     <p>By Jhon Doe</p>
+                  </a>
+               </div>
+            </div>
+            <div class="project__item item-6">
+               <img src="img/pic6.jpg" alt="">
+               <div class="icon">
+                  <a data-exthumbimage="../img/pic6.jpg" data-lg-size="2500-2500" class="lightimg"
+                     data-src="../img/pic6.jpg" data-sub-html="Design">
+                     <i class="la la-plus"></i>
+                  </a>
+               </div>
+               <div class="text">
+                  <a href="">
+                     <h4>Software Landing</h4>
+                  </a>
+                  <br>
+                  <a href="">
+                     <p>By Jhon Doe</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--   Pricing -->
+   <div class="pricing">
+      <div class="container">
+         <div class="pricing__title">
+            <p>Choose Your Plan</p>
+            <h2>Choose Your Plan</h2>
+            <div class="pricing__button__plan">
+               <div class="monthly" id="monthly" onclick="changeColorPlanMonthly()">
+                  <span>MONTHLY</span>
+               </div>
+               <div class="yearly" id="yearly" onclick="changeColorPlanYearly()">
+                  <span>YEARLY</span>
+               </div>
+               <div class="onclick__plan" id="onclick__plan"></div>
+            </div>
+         </div>
+         <div class="pricing__content">
+            <div class="pricing__item">
+               <div class="pricing__border">
+                  <h3>Basic Plan</h3>
+                  <div class="item__img">
+                     <img src="img/pic4_1.jpg" alt="">
+                  </div>
+                  <div class="pricing__price">
+                     <h2>
+                        <span>$49</span><span>/Month</span>
+                     </h2>
+                  </div>
+                  <ul class="pricing__features">
+                     <li>Graphic Design</li>
+                     <li>Web Design</li>
+                     <li>UI/UX</li>
+                     <li>HTML/CSS</li>
+                     <li>SEO Marketing</li>
+                     <li>Business Analysis</li>
+                  </ul>
+                  <div class="pricing__btn">
+                     <a href="" class="button">START NOW</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="pricing__item">
+               <div class="pricing__border">
+                  <h3>Standart Plan</h3>
+                  <div class="item__img">
+                     <img src="img/pic5_1.jpg" alt="">
+                  </div>
+                  <div class="pricing__price">
+                     <h2>
+                        <span>$99</span><span>/Month</span>
+                     </h2>
+                  </div>
+                  <ul class="pricing__features">
+                     <li>Graphic Design</li>
+                     <li>Web Design</li>
+                     <li>UI/UX</li>
+                     <li>HTML/CSS</li>
+                     <li>SEO Marketing</li>
+                     <li>Business Analysis</li>
+                  </ul>
+                  <div class="pricing__btn">
+                     <a href="" class="button">START NOW</a>
+                  </div>
+               </div>
+            </div>
+            <div class="pricing__item">
+               <div class="pricing__border">
+                  <h3>Premium Plan</h3>
+                  <div class="item__img">
+                     <img src="img/pic6_1.jpg" alt="">
+                  </div>
+                  <div class="pricing__price">
+                     <h2>
+                        <span>$149</span><span>/Month</span>
+                     </h2>
+                  </div>
+                  <ul class="pricing__features">
+                     <li>Graphic Design</li>
+                     <li>Web Design</li>
+                     <li>UI/UX</li>
+                     <li>HTML/CSS</li>
+                     <li>SEO Marketing</li>
+                     <li>Business Analysis</li>
+                  </ul>
+                  <div class="pricing__btn">
+                     <a href="" class="button">START NOW</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+   </div>
+   <!--   Testimonials  -->
+   <div class="testimonials">
+      <div class="container">
+         <div class="testimonials__title">
+            <p>Testimonial</p>
+            <h2>What Our Clients Say’s</h2>
+         </div>
+         <div class="testimonials-content">
+            <div class="swiper-container testimonial-thumbs">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="testimonial-pic">
+                        <img src="img/pic1_4.jpg" alt="">
+                        <div class="shape-bx"></div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-pic">
+                        <img src="img/pic2_3.jpg" alt="">
+                        <div class="shape-bx"></div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-pic">
+                        <img src="img/pic3_3.jpg" alt="">
+                        <div class="shape-bx"></div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            <div class="swiper-container testimonial-comment">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="testimonial-text">
+                        <strong class="testimonial-name">Cak Dikin</strong> <br>
+                        <span class="testimonial-position">CEO & Founder </span>
+                        <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum
+                           auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                           erat.</p>
+                     </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-text">
+                        <strong class="testimonial-name">Cak Dikin</strong> <br>
+                        <span class="testimonial-position">CEO & Founder </span>
+                        <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum
+                           auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                           erat.</p>
+                     </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="testimonial-text">
+                        <strong class="testimonial-name">Cak Dikin</strong> <br>
+                        <span class="testimonial-position">CEO & Founder </span>
+                        <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum
+                           auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                           erat.</p>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+   <!--   Blog -->
+   <div class="blog">
+      <div class="container">
+         <div class="blog__title">
+            <p>Our Blog</p>
+            <h2>Latest News & Blog</h2>
+         </div>
+         <div class="blog__carousel">
+            <div class="owl-carousel owl-none owl-loaded owl-drag">
+               <div class="owl-stage-outer">
+                  <div class="owl-stage">
+                     <div class="owl-item">
+                        <div class="item__img">
+                           <a href="">
+                              <img src="img/pic1_1.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="item__details">
+                           <div class="item__date">
+                              <p>25 MARCH 2021</p>
+                           </div>
+                           <div class="item__title">
+                              <a href="">Maecenas maximus <br> augue eget libero dictum.</a>
+                           </div>
+                           <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                              quam.</p>
+                           <ul>
+                              <li>
+                                 <i class="las la-user-circle"></i>
+                                 BY
+                                 <a href="" class="highlight">JOHNE DOE</a>
+                              </li>
+                              <li>
+                                 <i class="las la-comment"></i>
+                                 <a href="">COMMENT <span>15</span></a>
+                              </li>
+                           </ul>
+                        </div>
+
+                     </div>
+                     <div class="owl-item">
+                        <div class="item__img">
+                           <a href="">
+                              <img src="img/pic2.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="item__details">
+                           <div class="item__date">
+                              <p>28 JUNE 2021</p>
+                           </div>
+                           <div class="item__title">
+                              <a href="">Maecenas maximus <br> augue eget libero dictum.</a>
+                           </div>
+                           <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                              quam.</p>
+                           <ul>
+                              <li>
+                                 <i class="las la-user-circle"></i>
+                                 BY
+                                 <a href="" class="highlight">JOHNE DOE</a>
+                              </li>
+                              <li>
+                                 <i class="las la-comment"></i>
+                                 <a href="">COMMENT <span>15</span></a>
+                              </li>
+                           </ul>
+                        </div>
+
+                     </div>
+                     <div class="owl-item">
+                        <div class="item__img">
+                           <a href="">
+                              <img src="img/pic3.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="item__details">
+                           <div class="item__date">
+                              <p>28 JUNE 2021</p>
+                           </div>
+                           <div class="item__title">
+                              <a href="">Maecenas maximus <br> augue eget libero dictum.</a>
+                           </div>
+                           <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                              quam.</p>
+                           <ul>
+                              <li>
+                                 <i class="las la-user-circle"></i>
+                                 BY
+                                 <a href="" class="highlight">JOHNE DOE</a>
+                              </li>
+                              <li>
+                                 <i class="las la-comment"></i>
+                                 <a href="">COMMENT <span>15</span></a>
+                              </li>
+                           </ul>
+                        </div>
+
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--   Clients Logo-->
+   <div class="logo">
+      <div class="container">
+         <div class="owl-carousel owl-none owl-loaded owl-drag clients-carousel">
+            <div class="owl-stage-outer">
+               <div class="owl-stage">
+                  <div class="owl-item">
+                     <div class="item">
+                        <div class="clients-logo">
+                           <img src="img/logo-pink1.png" alt="" class="logo__main">
+                           <img src="img/logo-light1.png" alt="" class="logo__hover">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="owl-item">
+                     <div class="item">
+                        <div class="clients-logo">
+                           <img src="img/logo-pink2.png" alt="" class="logo__main">
+                           <img src="img/logo-light2.png" alt="" class="logo__hover">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="owl-item">
+                     <div class="item">
+                        <div class="clients-logo">
+                           <img src="img/logo-pink3.png" alt="" class="logo__main">
+                           <img src="img/logo-light3.png" alt="" class="logo__hover">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="owl-item">
+                     <div class="item">
+                        <div class="clients-logo">
+                           <img src="img/logo-pink4.png" alt="" class="logo__main">
+                           <img src="img/logo-light4.png" alt="" class="logo__hover">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="owl-item">
+                     <div class="item">
+                        <div class="clients-logo">
+                           <img src="img/logo-pink5.png" alt="" class="logo__main">
+                           <img src="img/logo-light5.png" alt="" class="logo__hover">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="owl-item">
+                     <div class="item">
+                        <div class="clients-logo">
+                           <img src="img/logo-pink6.png" alt="" class="logo__main">
+                           <img src="img/logo-light6.png" alt="" class="logo__hover">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--   Footer-->
+   <footer>
+      <div class="container">
+         <div class="footer__subscribe">
+            <div class="sbc__content">
+               <div class="scb__text">
+                  <h2>Subscribe To Our Newsletter</h2>
+               </div>
+               <div class="scb__input">
+                  <form action="">
+                     <input type="email" placeholder="Your Email Address">
+                     <button class="button" type="submit"><i class="las la-paper-plane scale4"></i></button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer__top">
+         <div class="container">
+            <div class="footer__flex">
+               <div class="top__information">
+                  <div class="footer__logo">
+                     <a href="">
+                        <img src="img/logo-white.png" alt="" />
+                     </a>
+                  </div>
+                  <div class="item__details">
+                     <ul>
+                        <li>
+                           <i class="fa fa-phone gradient"></i>
+                           <span>1800-123-4567<br>+91 987-654-3210</span>
+                        </li>
+                        <li>
+                           <i class="fa fa-envelope gradient"></i>
+                           <span>info@example.com <br>services@gmail.com</span>
+                        </li>
+                        <li>
+                           <i class="fa fa-map-marker gradient"></i>
+                           <span>Demo Address #8901 Marmora Road Chi Minh City, Vietnam</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="top__item">
+                  <div class="top__title">
+                     <h3>Our Links</h3>
+                  </div>
+                  <div class="top__content">
+                     <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Blog</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="top__item">
+                  <div class="top__title">
+                     <h3>Our Services</h3>
+                  </div>
+                  <div class="top__content">
+                     <ul>
+                        <li><a href="">Strategy & Research</a></li>
+                        <li><a href="">Web Development</a></li>
+                        <li><a href="">Web Solution</a></li>
+                        <li><a href="">Web Solution</a></li>
+                        <li><a href="">App Design</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="top__item">
+                  <div class="top__title">
+                     <h3>Other Links</h3>
+                  </div>
+                  <div class="top__content">
+                     <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Support</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+      <div class="footer__bottom">
+         <div class="container">
+            <div class="footer__flex">
+               <div class="bottom__left">
+                  <span class="copyright__text">Copyright © 2021 <a href="">DexignZone</a>. All rights reserved.</span>
+               </div>
+               <div class="bottom__right">
+                  <ul>
+                     <li>
+                        <a class="fab fa-facebook-f" href=""></a>
+                     </li>
+                     <li>
+                        <a class="fab fa-instagram" href=""></a>
+                     </li>
+                     <li>
+                        <a class="fab fa-twitter" href=""></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </footer>
+   <!--   Back To Top Button-->
+   <button href="javascript:;" type="button" id="back-to-top" class="cd-top text-replace">
+      <i class="fa fa-arrow-up"></i>
+   </button>
+   <!--  Count up jquery   -->
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+           integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+           integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="js/jquery.countup.js"></script>
+   <script>
+      $('.counter').countUp();
+   </script>
+   <!--   light gallery-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.umd.min.js"
+           integrity="sha512-6XfQwCpN6Lvfs86oXCYZVOh4P/VaCupM+MzqJs80pG+n5e/wn18MrStrXr65suu1tajh4KqHNTW5+Q6enBI/Rw=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/plugins/thumbnail/lg-thumbnail.umd.min.js"
+           integrity="sha512-v+/cnd6XTt28XV37rip+QRMB9OTYr90c3TxqNLLZZSH7cfoirS2N6bt9HRvlbyRnhco/vBK5pUCJdaIpS+fuhw=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/plugins/zoom/lg-zoom.umd.min.js"
+           integrity="sha512-HUKhPg1xSgASHRlFw8S6QJX7+AsYEf0lV9P/UPrzI5l3nBmyRVOekKoU5rtexB9RQseLgbaelQK4BRWrpCbItw=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/plugins/autoplay/lg-autoplay.min.js"
+           integrity="sha512-Nxc4LTmMiLWavwlQ9F4tjVELICatVRmhA4XF9PHkMGbKjeXYwDoPAgueeBj9UpD33SKmo1HZsII7YivJzJTi1A=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/plugins/fullscreen/lg-fullscreen.min.js"
+           integrity="sha512-dfDI/6u7KKBQR5fGGpHGDxA/Rz9ioSdem5qCjBgjuoyhFz3MgQtq+XU2xEe4+KyscQbSxjRFVlCfZmEmtUGMwQ=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/plugins/share/lg-share.min.js"
+           integrity="sha512-rmE0iy3Rm0fT6c+0+KNSBaI5JnY2ypoPLKgg0piRLOKBIA4KS8NFs+s5XQzhPg7a+p31b9bcf9IbUOJV7tlozw=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!--   Swiper-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+           integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="js/swiper.min.js"></script>
+   <!-- Owl Carousel JS-->
+   <script src="js/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+           integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!--   Back To Top-->
+   <script src="back-to-top-master/assets/js/util.js"></script>
+   <script src="back-to-top-master/assets/js/main.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
